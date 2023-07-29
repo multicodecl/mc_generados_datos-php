@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /config/
+Disallow: /include/
+
+Allow: /public/pages/
+
+Sitemap: https://gendata.multicode.cl/sitemap.xml
