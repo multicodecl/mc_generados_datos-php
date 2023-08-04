@@ -11,13 +11,19 @@ include '../include/base.php';
         ?>
     </head>
     <body>
-
-        <?php
-        //include '../test.php';
-
-        include 'componente/menu.php';
-        include 'componente/script_footer.php';
-        ?>
-
+        <div class="container-md">
+            <header>
+                <?php
+                include 'componente/menu.php';
+                ?>
+            </header>
+            <main>
+                Colaboracion
+            </main>
+            <?php
+            include 'componente/footer.php';
+            include 'componente/script_footer.php';
+            ?>
+        </div>
     </body>
 </html>

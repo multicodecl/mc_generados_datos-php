@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg">
     <div class="container-md">
         <a class="navbar-brand" href="<?= base_url() ?>index.php">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-database" viewBox="0 0 16 16">
@@ -22,7 +22,7 @@
             </ul>
             <span class="navbar-text">
                 <div class="dropdown">
-                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                    <button type="button" class="btn btn-sm dropdown-toggle" data-bs-toggle="dropdown">
                         Idiomas
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="Dropdown">

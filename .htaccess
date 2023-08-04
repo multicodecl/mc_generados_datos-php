@@ -1,4 +1,7 @@
+#Bloquear los accesos a varias extensiones
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
 
-RewriteEngine on
-RewriteCond $1 !^(index\.php|robots\.txt|sitemap\.xml|public)
-RewriteRule ^(.*)$ index.php/$1 [L]
+ErrorDocument 403 /pages/errors/403.html
