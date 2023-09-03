@@ -8,7 +8,7 @@
 <meta name="organization" content="MultiCode, https://multicode.cl" />
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
-<link rel="shortcut icon" type="image/png" href="<?= base_url() ?>public/files/favicon/favicon-database.png"/>
+<link rel="shortcut icon" type="image/png" href="<?= base_url() ?>public/files/favicon/favicon-database-sf.png"/>
 
 <meta name="robots" content="noindex, nofollow" />
 <meta name="googlebot" content="noindex" />

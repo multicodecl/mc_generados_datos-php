@@ -9,7 +9,15 @@ $lang = array(
     'nav_inicio' => 'Inicio',
     'nav_colaboracion' => 'Colaboración',
     'nav_contacto' => 'Contacto',
+    'nav_idiomas' => 'Idiomas',
+    //---------------------------------
+    'nav_theme' => 'Temas',
+    //---------------------------------
+    'nav_theme_light' => 'Claro',
+    'nav_theme_dark' => 'Oscuro',
     //---------------------------------
     'lang_es' => 'Español',
-    'lang_en' => 'English'
+    'lang_en' => 'Inglés',
+    //---------------------------------
+    'footer_copyright' => 'Todos los derechos reservados.'
 );

@@ -1,6 +1,6 @@
 <footer class="pt-4 my-md-5 pt-md-5 text-center">
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p class="text-md-start">Copyright © 2023 MultiCode. All rights reserved.</p>
+        <p class="text-md-start">Copyright © 2023 MultiCode. <?php echo $lang['footer_copyright']; ?> </p>
         <ul class="list-unstyled d-flex">
             <li class="ms-3">
                 <a class="link-dark" href="https://github.com/multicodecl" target="_blank">
