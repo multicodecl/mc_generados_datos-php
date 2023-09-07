@@ -16,8 +16,19 @@ $lang = array(
     'nav_theme_light' => 'Claro',
     'nav_theme_dark' => 'Oscuro',
     //---------------------------------
+    'nav_login' => 'Colaborar',
+    'nav_login_signin' => 'Iniciar sesión',
+    'nav_login_logout' => 'Cerrar sesión',
+    'nav_login_register' => 'Registrarse',
+    'nav_login_profile' => 'Perfil',
+    'nav_login_please_signin' => 'Por favor, registrese',
+    'nav_login_email_address' => 'Correo electrónico',
+    'nav_login_password' => 'Contraseña',
+    'nav_login_remember_me' => 'Recordarse',
+    //---------------------------------
     'lang_es' => 'Español',
     'lang_en' => 'Inglés',
     //---------------------------------
-    'footer_copyright' => 'Todos los derechos reservados.'
+    'footer_copyright_01' => 'Copyright © 2023 MultiCode.',
+    'footer_copyright_02' => 'Todos los derechos reservados.'
 );

@@ -21,6 +21,15 @@ if (!isset($_SESSION['theme'])) {
     $_SESSION['theme'] = 'light';
 }
 
-//require_once "./language/es.php";
+/** Datos para login */
+if (!isset($_SESSION['login']) || !isset($_SESSION['id_usuario']) || !isset($_SESSION['id_tipo_usuario'])) {
+    $_SESSION['login'] = false;
+    $_SESSION['id_usuario'] = 0;
+    $_SESSION['id_tipo_usuario'] = 0;
+}
+
+//Test
+//$_SESSION['login'] = false;
+////require_once "./language/es.php";
 //require_once "./language/" . $_SESSION['lang'] . ".php";
 require_once(dirname(dirname(__FILE__)) . '\\language\\' . $_SESSION['lang'] . '.php');
